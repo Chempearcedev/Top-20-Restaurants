@@ -1,3 +1,4 @@
+  
               function initMap() {
         var etch = {lat: 50.82846, lng:  -0.177569};
         var saltRoom = {lat: 50.8214619, lng: -0.1483314};
@@ -5,6 +6,11 @@
         var riddleFinns = {lat: 50.822055, lng: -0.140776};
         var terre = {lat: 50.820397, lng: -0.139095};
         var gingerMan = {lat: 50.824114, lng: -0.155105};
+        var fishMarket = {lat: 50.82503, lng: -0.157086};
+        var degrees = {lat: 50.822055, lng: -0.140776};
+        var urchin = {lat: 50.830522, lng: -0.175401};
+        var etci = {lat: 50.823933, lng: -0.151023};
+        
 
       var map = new google.maps.Map(document.getElementById("map"), {
           zoom: 12,
@@ -110,6 +116,67 @@
           "</div>" +
           "</div>";
 
+         var contentString7 =
+                   '<div id="content">' +
+          '<div id="siteNotice">' +
+          "</div>" +
+          '<h1 id="firstHeading" class="firstHeading">The Little Fish Market</h1>' +
+          '<div id="bodyContent">' +
+          "<p><b>Rating:</b>    5.0 </p>" +
+          "<p><b>Address:</b> 10 Upper Market Street, Hove BN3 1AS England</p>" +
+         '<p><b>Cuisine:</b> Seafood, European, British<br> <a href="https://www.thelittlefishmarket.co.uk" target="_blank">' +
+          "https://www.gingermanrestaurant.com</a> " +
+          "</p>" +
+          "</div>" +
+          "</div>";
+
+            var contentString8 =
+                   '<div id="content">' +
+          '<div id="siteNotice">' +
+          "</div>" +
+          '<h1 id="firstHeading" class="firstHeading">64 Degrees</h1>' +
+          '<p><b>Price Range:</b> £15 - £40</p>' +
+          '<div id="bodyContent">' +
+          "<p><b>Rating:</b>    4.5 </p>" +
+          "<p><b>Address:</b> 53 Meeting House Lane, Brighton BN1 1HB England</p>" +
+         '<p><b>Cuisine:</b> Seafood, European, British<br> <a href="https://www.64degrees.co.uk" target="_blank">' +
+          "https://www.64degrees.co.uk</a> " +
+          "</p>" +
+          "</div>" +
+          "</div>";
+
+          
+        var contentString9 =
+                   '<div id="content">' +
+          '<div id="siteNotice">' +
+          "</div>" +
+          '<h1 id="firstHeading" class="firstHeading">The Urchin</h1>' +
+          '<p><b>Price Range:</b>  £10 - £25</p>' +
+          '<div id="bodyContent">' +
+          "<p><b>Rating:</b>    4.5 </p>" +
+          "<p><b>Address:</b> 15-17 Belfast Street, Hove BN3 3YS England</p>" +
+         '<p><b>Cuisine:</b> Seafood, British, Pub<br> <a href="https://www.urchinpub.co.uk" target="_blank">' +
+          "https://www.urchinpub.co.uk</a> " +
+          "</p>" +
+          "</div>" +
+          "</div>";
+
+                var contentString10 =
+                   '<div id="content">' +
+          '<div id="siteNotice">' +
+          "</div>" +
+          '<h1 id="firstHeading" class="firstHeading">Etci Kitchen</h1>' +
+          '<p><b>Price Range:</b> £5 - £65</p>' +
+          '<div id="bodyContent">' +
+          "<p><b>Rating:</b>    5.0 </p>" +
+          "<p><b>Address:</b> 47 Preston Street, Brighton, BN1 2HP England</p>" +
+         '<p><b>Cuisine:</b> Seafood, European, British<br> <a href="https://www.etcikitchen.com" target="_blank">' +
+          "https://www.etcikitchen.com</a> " +
+          "</p>" +
+          "</div>" +
+          "</div>";
+
+
         const infowindow1 = new google.maps.InfoWindow({
           content: contentString1,
         });
@@ -134,6 +201,24 @@
           content: contentString6,
         });
         
+            const infowindow7 = new google.maps.InfoWindow({
+          content: contentString7,
+        });
+
+           
+            const infowindow8 = new google.maps.InfoWindow({
+          content: contentString8,
+        });
+
+              const infowindow9 = new google.maps.InfoWindow({
+          content: contentString9,
+        });
+
+                   const infowindow10 = new google.maps.InfoWindow({
+          content: contentString10,
+        });
+
+
         const marker1 = new google.maps.Marker({
           position: etch,
           map,
@@ -208,6 +293,44 @@
         });
         marker6.addListener("click", () => {
             infowindow6.open(map, marker6)
-        })
+        });
+
+           const marker7 = new google.maps.Marker ({
+            position: fishMarket,
+            map,
+            title: "The Little Fish Market",
+        });
+        marker7.addListener("click", () => {
+            infowindow7.open(map, marker7)
+        });
+
+       const marker8 = new google.maps.Marker ({
+            position: degrees,
+            map,
+            title: "64 Degrees",
+        });
+        marker8.addListener("click", () => {
+            infowindow8.open(map, marker8)
+        });
+
+            const marker9 = new google.maps.Marker ({
+            position: urchin,
+            map,
+            title: "The Urchin",
+        });
+        marker9.addListener("click", () => {
+            infowindow9.open(map, marker9)
+        });
+
+        
+            const marker10 = new google.maps.Marker ({
+            position: etci,
+            map,
+            title: "Etci Kitchen",
+        });
+        marker10.addListener("click", () => {
+            infowindow10.open(map, marker10)
+        });
+
     
       }
