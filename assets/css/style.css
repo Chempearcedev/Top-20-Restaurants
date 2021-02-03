@@ -1,32 +1,119 @@
-.placeholder {
+
+.main-banner {
+  font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 5px;
+    background-color: #fdd9b6;
     height: 100px;
-    width: 100px;
-    margin: auto;
-    margin-top: 70px;
-    position: absolute;
-    right: 50vw;
-    top: 50px;
-    
+}
+
+.side-panel {
+background-color: #888888 !important;
+color:#676767;
+font-family: 'Stylish', sans-serif;
 }
 
 .main-header {
-    width: 60vw ;
-    margin-top: 250px;
-    margin-left: 250px;
-    margin-bottom: 80px;
-    text-align: center;
-    font-family: 'Yusei Magic', sans-serif;
+    font-size: 40px;
+      color:#676767;
+}
+
+.side-content {
+margin-left: 10px;
+padding-right: 25px;
+font-weight: 500;
+font-size: 15px;
+line-height: 2.3;
+}
+
+.side {
+    color: #fff5db;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+    line-height: 2.6;
+}
+
+.link {
     color: #ffffff;
-    position: relative;
+    text-decoration: underline;
+}
+
+.about-text {
+    color: #fff5db;
+    margin-left: 20px;
+     font-family: 'Lora', serif;
+     line-height: 2.1;
+}
+
+.side-header {
+    background-color: #f2f3f4;
+    text-align: center;
+}
+
+.icon {
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.icon-2 {
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+.email-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.background-pic {
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/55/cafe-768771_960_720.jpg");
+}
+
+body {
+    padding-top: 0;
+    padding: 5px;
 }
 
 #map {
-    border: 2px solid red;
+     border: 2px solid red;
     width: 60vw;
-    height: 60vh;
-    bottom: 70px;
-    margin: 0 auto;
-    
+    height: 80vh;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.about-info {
+    background-color: #888888;
+    margin-top: 5px;
+    color:#fdd9b6;
+    font-family: 'Stylish', sans-serif;
+}
+
+.route {
+    padding-left: 60px;
+}
+
+.about-header {
+background-color: #f2f3f4;
+color:#676767;
+width: 52%;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.form-header {
+background-color: #f2f3f4;
+color:#676767;
+width: 52%;
+margin-top: 10px;
+}
+
+.form {
+    background-color: #888888;
+    color:#fdd9b6;
+    font-family: 'Stylish', sans-serif;
+     margin-top: 5px;
+    padding-left: 5px;
 }
 
 footer {
@@ -35,13 +122,21 @@ footer {
     height: 5vh;
 }
 
-
-body {
-    background-image: url("https://cdn.pixabay.com/photo/2021/01/10/16/16/baker-5905622__340.jpg");
-}
-h2 {
-    bottom: 100px;
+@media only screen and (max-width: 600px) {
+  .main-header {
+    font-size: large;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  .form-header {
+    font-size: medium;
+  }
+}
 
-  
+
+@media only screen and (max-width: 600px) {
+  .about-header {
+    font-size: medium;
+  }
+}
