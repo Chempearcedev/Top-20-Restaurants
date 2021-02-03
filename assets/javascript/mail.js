@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    $("#button").on("click", function() {
+        $("#button").text("Email sent");
+    })
+});
+
+
 function sendMail(contactForm) {
     emailjs.send("service_8jzchbj","restaurant-finder", {
      "message": contactForm.message.value,
