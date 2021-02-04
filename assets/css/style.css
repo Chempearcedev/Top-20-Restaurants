@@ -7,7 +7,7 @@
 }
 
 .side-panel {
-background-color: #888888 !important;
+background-color:#888888 !important;
 color:#676767;
 font-family: 'Stylish', sans-serif;
 }
@@ -23,6 +23,10 @@ padding-right: 25px;
 font-weight: 500;
 font-size: 15px;
 line-height: 2.3;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .side {
