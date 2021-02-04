@@ -82,8 +82,8 @@ const locations = [
     },
                  {
         name: "The Urchin",
-        lat:  50.826636,
-        lng: -0.161594,
+        lat:  50.830522,
+        lng: -0.175401,
         address: "15-17 Belfast Street, Hove BN3 3YS England",
         website: "https://www.urchinpub.co.uk",
         priceRange: " £10 - £25",
@@ -105,7 +105,7 @@ const locations = [
         lat:  50.825497,
         lng: -0.158387,
         address: "31A Western Road, Hove BN3 1AF England",
-        website: "www.chardrestaurant.uk",
+        website: "https://www.chardrestaurant.uk",
         priceRange: " £6 - £25",
         cuisine: "British",
         rating: "5.0"
@@ -115,7 +115,7 @@ const locations = [
         lat:  50.827198,
         lng: -0.13695,
         address: "2 Gloucester Street, Brighton BN1 4EW England",
-        website: "www.isaac-at.com",
+        website: "https://www.isaac-at.com",
         priceRange: "£35 - £49",
         cuisine: "British",
         rating: "4.5"
@@ -125,7 +125,7 @@ const locations = [
         lat:  50.819444,
         lng: -0.122266,
         address: "12 College Place, Brighton BN2 1HN England",
-        website: "www.thegingerdog.com",
+        website: "https://www.thegingerdog.com",
         priceRange: "£21 - £38",
         cuisine: "Bar, British, Pub",
         rating: "4.0"
@@ -135,7 +135,7 @@ const locations = [
         lat:  50.826126,
         lng: -0.137362,
         address: "13-16 Vine Street, Brighton BN1 4AG England",
-        website: "www.cincin.co.uk",
+        website: "https://www.cincin.co.uk",
         priceRange: "£7 - £22",
         cuisine: "Contemporary, Dining bars",
         rating: "4.5"
@@ -145,7 +145,7 @@ const locations = [
         lat:  50.82326,
         lng: -0.149985,
         address: "33 Regency Square, Brighton BN1 2GG England",
-        website: "www.thesetrestaurant.com",
+        website: "https://www.thesetrestaurant.com",
         priceRange: "£75 - £170",
         cuisine: "British, International",
         rating: "4.5"
@@ -155,7 +155,7 @@ const locations = [
         lat: 50.822321,
         lng: -0.139956,
         address: "13 Hanningtons Lane, Brighton BN1 1GS England",
-        website: "www.thesetrestaurant.com",
+        website: "https://www.thesetrestaurant.com",
         cuisine: "British, Wine Bar, European",
         rating: "4.5"
     },
@@ -164,7 +164,7 @@ const locations = [
         lat: 50.821025,
         lng: -0.148356,
         address: "91-96 Kings Road Arches, Brighton BN1 2FN England",
-        website: "www.murmur-restaurant.co.uk",
+        website: "https://www.murmur-restaurant.co.uk",
         priceRange: "£4 - £13",
         cuisine: "British, Seafood, European, Contemporary",
         rating: "4.5"
@@ -174,7 +174,7 @@ const locations = [
         lat: 50.825148,
         lng: -0.153375,
         address: "125 Western Road, Brighton BN1 2AD England",
-        website: "www.baqueano.co.uk",
+        website: "https://www.baqueano.co.uk",
         priceRange: "£7 - £40",
         cuisine: "Steakhouse, Grill, Argentinian",
         rating: "5.0"
@@ -184,7 +184,7 @@ const locations = [
         lat: 50.824016,
         lng: -0.15058,
         address: "63 Preston Street, Brighton BN1 2HE England",
-        website: "www.binchoyakitori.com",
+        website: "https://www.binchoyakitori.com",
         priceRange: "£12 - £50",
         cuisine: "Japanese, Asian",
         rating: "4.5"
@@ -194,7 +194,7 @@ const locations = [
         lat: 50.821384,
         lng: -0.15058,
         address: "70 Ship Street, Brighton BN1 1AE England",
-        website: "www.petitpoisbrighton.co.uk",
+        website: "https://www.petitpoisbrighton.co.uk",
         priceRange: "£10 - £15",
         cuisine: "French, European",
         rating: "4.5"
@@ -235,10 +235,10 @@ function initMap() {
                 <div id="siteNotice"></div>
                 <h1 id="firstHeading" class="firstHeading">${location.name}</h1>
                 <div id="bodyContent">
-                    <p><span class="bold">Rating</span>:</b> ${location.rating}</p>
-                    <p>Address: ${location.address}</p>
-                    <p>Price Range: ${location.priceRange}</p>
-                    <p>Cuisine:</b> ${location.cuisine}</p>
+                    <p><span class="bold">Rating:</span>: ${location.rating}</p>
+                    <p><span class="bold">Address:</span> ${location.address}</p>
+                    <p><span class="bold">Price Range:</span> ${location.priceRange}</p>
+                    <p><span class="bold">Cuisine:</span> ${location.cuisine}</p>
                     <a href="${location.website}" target="_blank">
                         ${location.website}
                     </a>
