@@ -1,45 +1,50 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+># *Top 20 Restaurants In Brighton And Hove*
 
-Welcome USER_NAME,
+ ## *Introduction*
+------------------------
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website offers information about the top 20 restaurants in **Brighton and Hove**. 
+Being famous as a tourist town with many visitors everyday, most of whom want to find and visit the exceptional restaurants that Brighton and Hove have to offer. 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This website offers a guide to finding restaurants and offer relevent information that they will need to make the right decision on which restaurant to visit. 
+The information the user can retreive from this site is price range, cuisine, ratings, address and a link to each restaurants website. 
+This information is delivered through a map that showcases the location of each restaurant, local to Brighton and Hove.
+Each restaurant has a marker with an information window to show the features of that particular restaurant.
 
-`python3 -m http.server`
+ ## *Goals*
 
-A blue button should appear to click: *Make Public*,
+ <hr>
 
-Another blue button should appear to click: *Open Browser*.
+ The goal of this website is to offer a quick and functional way for users to search for the top 20 restaurants in Brighton and Hove. 
+ Top 20 restaurants in Brighton and Hove are focused on central Brighton and Hove to support tourists and locals in finding a restaurant that is either close to a hotel they are staying,
+ or close to other attractions that Brighton and Hove have to offer. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Interaction goals for this website are included to support the user in accessing relevent information quickly and easily.
+Along with offering the right information in making a decision about a restaurant to visit.
 
-A blue button should appear to click: *Make Public*,
+## *Groups*
 
-Another blue button should appear to click: *Open Browser*.
+<hr>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The groups of people this website supports are varied based on their connection to Brighton and Hove. 
+Tourists are the first group this website is targeting, this is becasuse the main element of the site is a map that allows a user to see the locations of the top 20 restaurants on a map. 
+This allows this user to find the distance of a restaurant from other attractions and locations they may visit, such as hotels.
 
-## Updates Since The Instructional Video
+Restaurant enthusiasts are another group this website supports. Whether this group lives in Brighton and Hove or are visiting from out of town, 
+this website offers a list of exceptional restaurants, features about the restaurant and up to date information on the trends and news associated with the restaurant industry in Brighton and Hove.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **Tourists**
+ * This group is looking for a website that offers clear information about the best restaurants to visit in Brighton and Hove. 
+   The top features that this group will benefit from are the maap that offers a clear location information and addresses to allow then to find the restaurants easily. Price range and cuisine.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Restaurant Enthusiasts**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* This group may already have knowledge on Brighton and Hove but are looking for information on the best restaurants try based on features such as rating, 
+  cuisine and would benefit from trends and news associated with Brighton and Hove restaurant industry.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    First Header  | Second Header
+    ------------- | -------------
+    Content Cell  | Content Cell
+    Content Cell  | Content Cell
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
