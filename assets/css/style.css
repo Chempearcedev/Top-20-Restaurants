@@ -1,9 +1,12 @@
-
 .main-banner {
   font-family: 'Berkshire Swash', cursive;
     margin-bottom: 5px;
     background-color: #fdd9b6;
     height: 100px;
+}
+
+.link {
+    font-size: medium;
 }
 
 .side-panel {
@@ -142,5 +145,16 @@ footer {
 @media only screen and (max-width: 600px) {
   .about-header {
     font-size: medium;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #map {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    font-size: small;
   }
 }
