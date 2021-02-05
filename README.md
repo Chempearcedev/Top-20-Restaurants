@@ -7,8 +7,8 @@ This website offers information about the top 20 restaurants in **Brighton and H
 Being famous as a tourist town with many visitors everyday, most of whom want to find and visit the exceptional restaurants that Brighton and Hove have to offer. 
 
 
-This website offers a guide to finding restaurants and offer relevent information that they will need to make the right decision on which restaurant to visit. 
-The information the user can retreive from this site is price range, cuisine, ratings, address and a link to each restaurants website. 
+This website offers a guide to finding restaurants, and offer relevent information needed to make the right decision on which restaurant to visit. 
+The information the user can retreive from this site is price range, cuisine, ratings, address and a link to each restaurants website all accessed on a local map with markers. 
 This information is delivered through a map that showcases the location of each restaurant, local to Brighton and Hove.
 Each restaurant has a marker with an information window to show the features of that particular restaurant.
 
@@ -104,6 +104,10 @@ in the area with information windows that explain details regarding the restaura
 Below the map and information area is a text area explaining why the user should use this service when sourcing
 a restaurant they want to eat at.
 
+## *Figma*
+
+![Screenshot](assets/images/figma.png)
+
 ## *Technologies* 
 
 <hr>
@@ -112,6 +116,7 @@ a restaurant they want to eat at.
 * CSS
 * Javascript
 * Bootstrap
+* Google Maps API
 
 ## *Tools* 
 
@@ -130,7 +135,7 @@ a restaurant they want to eat at.
 * Google Maps documentation 
 * EmailJs
 
-### *Tools*
+### *Tools EXT*
 
 <hr>
 
@@ -151,12 +156,33 @@ a restaurant they want to eat at.
 
 ### *Testing*
 
+* In the top banner, testing was done to ensure that the page links, link to the area of the page that it suggets. 
+  The links are in place to ensure users viewing on a mobile devices are aware there is a map available to them as well as further information on the website.
+
+* On the right side of the page below the banner is information on food trends in Brighton and Hove with a link to a website that gives
+them more information on trends. This shows to be working well, and opens in a new window when clicked.
+
+* The map was tested in realtion to markers:
+**ERROR WAS FOUND** -  An error occured during testing and two markers were found to be not opening out of their clusters.
+This has since been rectified. The error showed the same longitude and latitude coordinates for both restaurants, now changed to having the correct coordinates. 
+
+* Social media icons are located under information about 'Why find with us'. These show to be connecting to the right webpage and both are opening in a new page.
+
+* Email form was tested, all desired mail is recieved to the users email they input when they fill the form out.
+An email will be received by the user giving further information on the top restaurants in Brighton and Hove. 
+**CHANGE** - a change was made on the form to the alert box message as it showed a message saying 'message sent' although only the button was clicked.
+
+* Testing was done on responsiveness and found to be working all device sizes.
+
+* *W3* validator was used on both html and css and found no errors.
+run website 
+* Javascript validator was use to test code structure 
+
+* Lighthouse was used to test performance. A *SLOW* performance was suggested which was rectified when using a different network to 
 
 
-
-
-
-
+![Screenshot](assets/images/testing.png)
+![Screenshot](assets/images/testing2.png)
 
 ### *UX and User stories*
 
@@ -175,12 +201,30 @@ Testing was done to evaluate user experience against user stories.
  At the bottom of the page is information on 'why they should source with us' and to the right of that is a form that the user is able to place their name and email to recieve 
  an email on further information on the top 20 restaurants in Brighton and Hove. 
 
+ A bike lane layer is added to support decision making on how to get to a restaurant 
+
  #### *Restaurant Enthusiasts*
 On the intial landing on the page this user is able to see from the title that they are able to find the top
-restaurants in Brighton aand Hove. 
+restaurants in Brighton aand Hove. At the top of the page are links to areas on the page they might like to view. 
+On the left side is some information on the latest trends and news associated with Brighton and Hove restaurants.
+To the right hand side is a map, local to Brighton and Hove with markers showing the location of the restaurant.
+A email form is avaiable if this user would like more information to hand to help with their decision making.
+
+### **Deployment**
+
+* Log into GitHub.
+* Go to repositories choose map.
+* Go to settings.
+* Go down to GitHub Pages.
+* Click on master branch.
+* Go down to GitHub Pages and click on the provided link.
   
+### **Special thanks**
 
-
+Aaron Sinnot - Mentor 
+Miklos - Tutor support 
+Slack 
+Student Care - Alexander 
 
 
 
