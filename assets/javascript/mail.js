@@ -21,5 +21,5 @@ function sendMail(contactForm) {
 }
 
  function myFunction() {
-    alert('Congratulations your email has been sent!');
+    alert('We hope you find the restaurant for you!');
   }
