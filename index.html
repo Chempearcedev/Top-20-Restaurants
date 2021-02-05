@@ -32,11 +32,11 @@
           <div class="row">
     <div class="main-banner col-12">
         <br>
-        <h3 class="main-header">Brighton's top 20 restaurants                <i class="fa fa-cutlery" aria-hidden="true"></i></h3></div>
+        <h3 class="main-header">Brighton's top 20 restaurants                <i class="fa fa-cutlery" aria-hidden="true"></i> <a href="#map" class="link">Map</a><a href="#about-info" class="link">Why find with us?</a><a href="#form" class="link">Email Form</a></h3></div>
 
-<div class="col-lg-4 col-sm-8 side-panel">
+<div class="col-lg-4 col-md-12 col-sm-8 side-panel">
     <div class="col side-content">
-    <br>
+    
            <h3 class="side-header">Healthy Brighton...</h3>
            <p class="side">Brighton and Hove famous for being at the front of the latest millenial craze. New superfoods are on e of the most popular trends accuring now. Think fermentation and immune boosting reishi mushrooms. Here are some of the best healthy restaurants in Brighton and Hove.        <a href="https://restaurantsbrighton.co.uk/clean-healthy-eating-brighton/" target="_blank" class="link btn btn-info">Healthy restaurants in Brighton and Hove</a></p>
     </div>
@@ -45,8 +45,9 @@
            <h3 class="side-header">Did you know...?</h3>
            <p class="side">Brighton and Hove famous for being at the front of the latest millenial craze. New superfoods are on e of the most popular trends accuring now. Think fermentation and immune boosting reishi mushrooms. Here are some of the best healthy restaurants in Brighton and Hove.        <a href="https://restaurantsbrighton.co.uk/clean-healthy-eating-brighton/" target="_blank" class="link btn btn-info">Healthy restaurants in Brighton and Hove</a></p>
            </div>
+
 </div> 
-<div class=" col-lg-8 background-pic">
+<div class=" col-lg-8 col-md-12 col-sm-12 background-pic">
     <div id="map">
 
     </div>
@@ -54,17 +55,17 @@
 </div>
 </div>
     <div class="row info">
-        <div class="col-lg-6 col-sm-8 about-info">
+        <div class="col-lg-6 col-md-12 col-sm-8 about-info" id="about-info">
            <h2 class="about-header">Why find with us...</h2>
-           <p class="about-text">We can source the best and most relevent inoformation about the best places to eat in Brighton. Being local to brighton allows a personal approach to undestanding the best restaurant experiences Brighton and Hove have to offer. Access he location , rating, price range and website to get all the information you need to find the right restaurant for you. Brighton and Hove promote a healthy approach to reduction in caarbon addmissions and offer bicycle routes throughout the city, shown on our map in Green. </p>
-           <i class="fa fa-facebook-square text-info icon" aria-hidden="true"></i>
-           <i class="fa fa-instagram icon-2 text-info" aria-hidden="true"></i>
+           <p class="about-text">We can source the best and most relevent inoformation about the best places to eat in Brighton. Being local to brighton allows a personal approach to undestanding the best restaurant experiences Brighton and Hove have to offer.
+             Access he location , rating, price range and website to get all the information you need to find the right restaurant for you. Brighton and Hove promote a healthy approach to reduction in caarbon addmissions and offer bicycle routes throughout the city, shown on our map in Green. </p>
+            <a href="https://www.facebook.com/brighton.restaurants.5" target="_blank"> <i class="fa fa-facebook-square text-info icon" aria-hidden="true"></i></a>
+               <a href="https://www.instagram.com/top20restaurants/" target="_blank"> <i class="fa fa-instagram icon-2 text-info" aria-hidden="true"></i></a>
         </div>
-         <div class="form col-lg-6 col-sm-8">
-             <br>
+         <div class="form col-lg-6 col-md-12 col-sm-8">
              <h3 class="form-header">Receive info on the top 20 restaurants</h3>
-             <br>
-    <div class="center-form">
+             
+    <div class="center-form" id="form">
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
@@ -75,17 +76,7 @@
                 </div>
         </div>
     </div>
-     <script>
- 
-  function myFunction() {
-    alert('Congratulations your email has been sent!');
-  }
 
-</script>
-  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/javascript/mail.js"></script>
     <script src="assets/javascript/map.js"></script>
 </body> 

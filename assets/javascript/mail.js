@@ -1,9 +1,8 @@
 $(document).ready(function() {
     $("#button").on("click", function() {
-        $("#button").text("Email sent");
+        $("#button").text("Thank you for your interest");
     })
 });
-
 
 function sendMail(contactForm) {
     emailjs.send("service_8jzchbj","restaurant-finder", {
@@ -20,3 +19,7 @@ function sendMail(contactForm) {
     });
     return false;
 }
+
+ function myFunction() {
+    alert('Congratulations your email has been sent!');
+  }
